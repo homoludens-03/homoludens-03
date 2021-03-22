@@ -1,0 +1,193 @@
+@import 'fonts';
+
+html{
+box-sizing: border-box;
+}
+*, *::before, *::after{
+box-sizing: inherit;
+}
+
+body {
+	/*min-height: 100vh;*/
+	margin: 0;
+	background-image: url(../images/content/bg.svg);
+	background-repeat: no-repeat;
+	background-position: 110% 40%;
+	background-size: 60%;
+}
+
+a{
+text-decoration: none;
+color:#000;
+display: inline-block;
+}
+
+ul{
+list-style: none;
+margin: 0px;
+padding: 0px auto;
+}
+
+li{
+display: inline-block;
+}
+p{
+	font-family: "SegoeUI", sans-serif;
+}
+.company__name-text{
+	font-family: "SegoeUI", sans-serif;
+	color: black;
+	z-index: 1;
+    font-size: 17px;
+}
+
+.company__info-title{
+	font-size: 23px;
+	color: #244061;
+	margin-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.text-container{
+	max-width: 800px;
+}
+
+.company__info-name{
+	font-size: 20px;
+	color: #244061;
+	display: inline;
+	z-index: 2;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.company__title-text{
+	font-size: 18px;
+	color: #244061;
+	margin-bottom: 50px;
+}
+
+.company__title{
+	font-size: 23px;
+	color: #244061;
+	margin: 0;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.company__title-inner{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.company__title-info{
+	margin: 0;
+	padding: 0;
+	font-size:20px;
+	font-family: 'Montserrat', sans-serif;
+	color: #244061;
+}
+
+.color{
+	color: #244061;
+}
+
+.company__info-text{
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.company__title-collaboration{
+	font-size: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	color: #244061;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main__title{
+	padding-top: 50px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #808080;
+}
+
+.main__images{
+	padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.margin__right{
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	line-height: 1px;
+}
+
+@media screen and (max-width: 320px) {
+	.company__info-title{
+	font-size: 13px;
+	color: #244061;
+	margin-bottom: 30px;
+	}
+
+	.company__info-name{
+	font-size: 13px;
+	color: #244061;
+	display: inline;
+	z-index: 2;
+	}
+
+	.company__title-text{
+	font-size: 10px;
+	color: #244061;
+	margin-bottom: 10px;
+	}
+
+	.company__title{
+	font-size: 13px;
+	color: #244061;
+	margin: 0;
+	margin-bottom: 20px;
+	}
+
+	.company__title-info{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-weight: 400;
+	color: #244061;
+	}
+
+	.company__info-text{
+	font-size: 10px;
+	margin: 0;
+	margin-bottom: 25px;
+	}
+	
+	.company__title-collaboration{
+	font-size: 10px;
+	color: #244061;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	}
+
+	p {
+	font-size: 13px;
+	}
+
+	span {
+	font-size: 13px;
+	}
+
+	.logotype {
+	width: 200px;
+	height: 150px;
+	}
+}

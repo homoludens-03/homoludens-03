@@ -1,0 +1,125 @@
+@import 'fonts';
+
+html{
+box-sizing: border-box;
+}
+*, *::before, *::after{
+box-sizing: inherit;
+}
+
+a{
+text-decoration: none;
+color:#000;
+display: inline-block;
+}
+
+ul{
+list-style: none;
+margin: 0px;
+padding: 0px auto;
+}
+
+li{
+display: inline-block;
+}
+
+.container{
+	max-width: 1030px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header__inner{
+	height: 100px;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__menu{
+	z-index: 2;
+	margin: 0 auto;
+	font-size: 14px;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header__contact{
+	text-align: right;
+	padding-top: 15px;
+	font-size: 12px;
+	margin: 0;
+	font-family: "SegoeUI", sans-serif;
+	line-height: 15px;
+}
+
+.header__menu-list{
+	padding-left: 80px;
+}
+
+.header__menu-list li + li{
+	padding-left: 50px;
+}
+
+.header__menu-list a:hover{
+	color:#244096;
+}
+
+.history {
+	max-width: 1030px;
+	padding:  0px;
+	margin: 0px;
+}
+
+.history_menu {
+	padding-top: 80px;
+	margin-bottom: 50px;
+}
+
+.paragraf {
+	border: 1px solid black;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+
+.info {
+
+	padding: 10px;
+}
+
+.title {
+	font-size: 25px;
+	color: #244096;
+}
+
+.text {
+	font-size: 20px;
+	color: black;
+}
+
+.date {
+	font-size: 20px;
+	color: gray;
+}
+
+.image {
+	margin: 150px 20px 0px 0px;
+}
+
+.picture {
+	width: 100px;
+	height: 100px;
+}
+
+.view {
+	font-size: 20px;
+	color: #244096;
+	margin-top: 3px;
+	padding: 0px 7px 0px 7px;
+}
+
+.view:hover {
+	text-decoration: underline;
+	border: 1px solid #244096;
+}
